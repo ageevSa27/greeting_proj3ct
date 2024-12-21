@@ -9,6 +9,6 @@ func GetGreet(name string) (string, error) {
 	if name == "" {
 		return "", errors.New("пустое имя")
 	} else {
-		return fmt.Sprintf("Привет, %s, как жизнь?", name), nil
+		return fmt.Sprintf("Привет, %s, как жизнь ??", name), nil
 	}
 }
